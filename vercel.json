@@ -1,0 +1,22 @@
+# משה AI - גרסת Vercel
+
+בגרסה הזו ה־Gemini API key לא נמצא בתוך קובץ ה־HTML ולא נשמר בדפדפן.
+הוא נשמר ב־Vercel כ־Environment Variable בשם `GEMINI_API_KEY`.
+
+## העלאה ל־Vercel
+
+1. העלי את כל התיקייה הזו ל־GitHub, או גררי אותה ל־Vercel כפרויקט חדש.
+2. ב־Vercel פתחי את Settings → Environment Variables.
+3. הוסיפי:
+   - Name: `GEMINI_API_KEY`
+   - Value: המפתח שלך מ־Google AI Studio
+4. מומלץ להוסיף גם:
+   - Name: `GEMINI_MODEL`
+   - Value: `gemini-2.5-flash`
+5. לחצי Redeploy.
+6. פתחי את הקישור של Vercel מכל מכשיר.
+
+## בדיקה
+
+באפליקציה: הגדרות → בדיקת חיבור לשרת.
+אם הכול תקין תראי הודעה ירוקה.
